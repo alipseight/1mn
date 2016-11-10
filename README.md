@@ -84,18 +84,19 @@ sobre as mudanças.
 trabalhar com êxito e não obtermos falhas.
 
 #### Branches
-	**beta:** Estágio de desenvolvimento.
-	**aurora:** Quando os arquivos são desenvolvidos, são mandados para a Aurora onde serão feitas
+
+**beta:** Estágio de desenvolvimento.
+**aurora:** Quando os arquivos são desenvolvidos, são mandados para a Aurora onde serão feitas
 as alterações finais, correções e melhorias.
-	**haskell:** Exclusivo para equipe de Imagem e Conteúdo, publicações e imagens são idealizadas
+**haskell:** Exclusivo para equipe de Imagem e Conteúdo, publicações e imagens são idealizadas
 nesta branch onde será passada para o próximo estágio.
-	**nightly:** Onde os arquivos finais são testados e passados para a aprovação ou descartados pelo 
+**nightly:** Onde os arquivos finais são testados e passados para a aprovação ou descartados pelo 
 Responsável da equipe, os arquivos descartados são excluídos da branch e não serão repassados para
  o estágio final.
-	**nemerle:** É o estágio final, onde os arquivos passados por aprovação são alocados para serem 
+**nemerle:** É o estágio final, onde os arquivos passados por aprovação são alocados para serem 
 lançados. A nemerle nos dá uma última chance de repensarmos e também uma ótima segurança no código 
 fonte (source).
-	**gh-pages:** Branch responsável pelo conteúdo lançado no 1MN.
+**gh-pages:** Branch responsável pelo conteúdo lançado no 1MN.
 
 #### Estágio de desenvolvimento
 
