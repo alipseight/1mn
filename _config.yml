@@ -3,11 +3,11 @@
 
 title: 1MN
 slogan: Seu mundo, só que na internet.
-email: 
+email: editor.1mn@gmail.com
 
 # Site Config
 
 current_version: 0.1.0-rls.1+build.b7fdeec
 markdown: kramdown
 url: "https://1mn.github.io"
-repo; "https://github.com/alipseight/1mn"
+repo: "https://github.com/alipseight/1mn"
