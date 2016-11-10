@@ -1,0 +1,8 @@
+---
+layout: index
+ref: index
+slug: home
+---
+
+{% capture index %}{% include index.md %} {% endcapture %}
+{{ index | markdownify }}
