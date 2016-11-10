@@ -1,7 +1,7 @@
-# 1MN
+# 1MNEWS
 ## 1 Maio News
 	
-Bem vindos(as) ao repositório do 1MN, se vocês estão vendo este arquivo então quer dizer 
+Bem vindos(as) ao repositório do 1MNEWS, se vocês estão vendo este arquivo então quer dizer 
 que se intereçaram em contribuir conosco, aqui estão alguns detalhes técnicos de criação
  e manutenção deste repositório e detalhes de como o site é feito.
 
@@ -28,7 +28,7 @@ além  de tomar decisões importantes.
 
 - Magno Reis
 - Lorena Carvalho
-- Caroline de Jesus
+- Caroline Souza
 
 ## Desenvolvimento
 > **Responsável por**: Criar, editar e idealizar códigos, ferramentas e design do 1MN. Mantém o
@@ -37,26 +37,31 @@ Gerencia a infraestrutura.
 
 ### Responsável
 - Magno Reis
+
 ### Integrante
 - Vago
 - Vago
+
 ##Conteúdo
 > **Responsável por**: Criar, editar e moderar do conteúdo do 1MN. Publicações são passadas
  para aprovação da equipe de Conteúdo.
 
 ### Responsável
 - Lorena Carvalho
+
 ### Integrante
 - Vago
 - Vago
 - Vago
 - Vago
+
 ## Imagem
 > **Responsável por**: Publicar, editar ou até criar imagens/fotografias para o 1MN. Fotos serão 
 passadas para uma aprovação pela equipe de Imagem.
 
 ### Responsável
 - Caroline de Jesus
+
 ### Integrante
 - Vago
 - Vago
@@ -93,6 +98,7 @@ fonte (source).
 	**gh-pages:** Branch responsável pelo conteúdo lançado no 1MN.
 
 #### Estágio de desenvolvimento
+
 
 |- Conteúdo
 |--- haskell |
