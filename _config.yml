@@ -10,9 +10,9 @@ baseurl: #ignore
 
 # Version Control
 
-current_version: v0.1.0-rc.rls+build.559d8dc
-last_version: v.0.1.0-rls+build.22f19d9
-version_log: Adicionado bootstrap
+current_version: v0.1.0-zeppelin.1/gh-pages+build.d82966f
+last_version: v0.1.0-rc.rls+build.559d8dc
+version_log: Adicionado blog, 404, navbar, modificações d82966f entre outros.
 
 # Site config
 includes: [_includes]
