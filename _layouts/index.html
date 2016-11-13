@@ -1,0 +1,96 @@
+<html lang="pt-br">
+{% include head.html %}
+<!-- NAVBAR
+================================================== -->
+  <body>
+   {% include nav-inverse.html %}
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="{{site.baseurl}}/assets/img/red.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Participe do 1MNEWS</h1>
+              <p>O 1MNEWS é aberto para quaisquer contribuições, veja como contribuir agora mesmo.</p>
+              <p><a class="btn btn-lg btn-primary" href="{{site.repo}}/" role="button">Junte-se hoje</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" style="background: green;" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Conteúdo único</h1>
+              <p>Nosso conteúdo é único criado para o 1MNEWS com o propósito de agradar a todos os usuários.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Saiba mais</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" style="background: blue;" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Estudantes para Estudantes</h1>
+              <p>Administrado por estudantes, e é isso que nos torna mais exclusivo. </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Membros</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fa fa-code fa-5x"></i>
+          <h2>Magno Reis</h2>
+          <p>Responsável pelo desenvolvimento, criação e manutenção.</p>
+          <p><a class="btn btn-default" href="#" role="button">Ver detalhes &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <i class="fa fa-file-text fa-5x"></i>
+          <h2>Lorenna Carvalho</h2>
+          <p> Responsável pelo conteúdo, notícias e anúncios.</p>       
+  <p><a class="btn btn-default" href="#" role="button">Ver detalhes &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+         <i class="fa fa-camera-retro fa-5x"></i>
+          <h2>Caroline Souza</h2>
+          <p>Responsável pelas imagens, fotos e galeria.</p>
+          <p><a class="btn btn-default" href="#" role="button">Ver detalhes &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+<!-- ------------------------------ CONTEÚDO ---------------------------->
+    			{{content}}
+<!-- -------------------------------- FIM DO CONTEÚDO ------------------------->
+      <!-- FOOTER -->
+<br>
+<br>
+      {% include footer.html %}
+
+    </div><!-- /.container -->
+  </body>
+</html>
