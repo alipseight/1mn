@@ -1,0 +1,46 @@
+<html>
+{% include head.html %}
+  <body>
+    <div class="container-fluid center">
+<i class="fa fa-5x fa-rocket"></i>
+<h2> Construção </h2>
+          <p>Parece que um <strong>Zeppelin</strong> nos atingiu e agora temos que reconstruir esta página.</p>
+
+      <p>
+        Infelizmente esta página ainda está sendo construída e você não <strong>poderá vê-la aqui</strong>, mas poderá vê-la sendo
+construída e ajudar na construção no <a href="{{site.repo}}">nosso repositório no</a> <strong>Github</strong>.
+      </p>
+<hr>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#currentVersion">
+  Clique aqui para ver a versão atual
+</button>
+</br>
+<p> Caso você encontre um <strong>Zeppelin</strong>, mantenha-nos informado em <a href="{{site.repo}}/issues">1MNEWS Issues</a>
+<!-- Modal -->
+<div class="modal fade" id="currentVersion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><strong>Versão atual</strong></h4>
+      </div>
+      <div class="modal-body">
+       <h4><span class="label label-default">{{site.current_version}}</span></h4>
+	<p>{{site.version_log}}</p>
+	 <h4 class="modal-title" id="myModalLabel"><strong>Versão antiga</strong></h4>
+	<h4><span class="label label-default">{{site.last_version}}</span></h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div> <!-- contrainer fluid -->
+  <footer class="footer">
+      <div class="container-fluid">
+        <p class="text-muted">O conteúdo deste site são &copy;&nbsp; <a href="https://mozillians.org/alipseight">Magno Reis</a> sob os termos da <a href="{{ site.repo }}/blob/master/LICENSE">licença MIT</a></p>
+      </div>
+    </footer>
+</body></html>
