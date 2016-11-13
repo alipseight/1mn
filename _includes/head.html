@@ -1,0 +1,58 @@
+<head>
+  <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title}} &middot {{site.title}}{% else %} {{site.title}}{% endif %} </title>
+<!--- Criado por Magno Reis (Alipseight) made in Brazil -->
+<!--- Cheque nosso repositório no Github, fique à vontade para nos ajudar! -->
+<!-- Github: https://github.com/alipseight -->
+<!-- Github: https://github.com/raincorn -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/docs.css">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/avorent.css">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/stylesheets/normalize.css">
+ <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/docs.min.css.map">
+<!-- Disabled until bootstrap migration is complete -->
+<!--  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/normalize.css" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/github-light.css" media="screen">
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{site.baseurl}}/assets/js/jquery.min.js"><\/script>')</script>
+ <script src="{{site.baseurl}}/assets/js/bootstrap.js"></script>
+ {% if page.layout== "build" %}   <style type="text/css" media="screen">
+     body {
+       background-color: #f1f1f1;
+       margin: 0;
+       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     }
+
+     .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+
+     a { color: #4183c4; text-decoration: none; }
+     a:hover { text-decoration: underline; }
+
+     h1 { font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+     p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+
+     ul { list-style: none; margin: 25px 0; padding: 0; }
+     li { display: table-cell; font-weight: bold; width: 1%; }
+
+     #suggestions {
+       margin-top: 35px;
+       color: #ccc;
+     }
+     #suggestions a {
+       color: #666666;
+       font-weight: 200;
+       font-size: 14px;
+       margin: 0 10px;
+     }
+/* CREATED BY MAGNO REIS AS ALIPSEIGHT FOR RAINCORN/AVORENT */
+.center {
+	text-align: center;
+}
+   </style>
+      {% endif %}
+</head>

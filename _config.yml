@@ -1,13 +1,22 @@
+#Criado por Magno Reis. Não modifique este arquivo
 
 # SIte Options
-
-title: 1MN
+title: 1MNEWS
 slogan: Seu mundo, só que na internet.
-email: 
-
-# Site Config
-
-current_version: 0.1.0-rls.1+build.b7fdeec
-markdown: kramdown
+email: editor.1mn@gmail.com
 url: "https://1mn.github.io"
-repo; "https://github.com/alipseight/1mn"
+repo: "https://github.com/alipseight/1mnews"
+baseurl: #ignore
+
+# Version Control
+
+current_version: v.0.1.0-rls+build.22f19d9
+last_version: v0.1.0-rls.1+build.b7fdeec
+version_log: Adicionado bootstrap
+
+# Site config
+includes: [_includes]
+#exclude:  .gitignore
+markdown: kramdown
+
+
