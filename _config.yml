@@ -10,8 +10,8 @@ baseurl: #ignore
 
 # Version Control
 
-current_version: v.0.1.0-rls+build.22f19d9
-last_version: v0.1.0-rls.1+build.b7fdeec
+current_version: v0.1.0-rc.rls+build.559d8dc
+last_version: v.0.1.0-rls+build.22f19d9
 version_log: Adicionado bootstrap
 
 # Site config
